@@ -44,5 +44,5 @@ Output:<img src="4.png" >
 Query:SELECT * FROM employee 
 WHERE salary > (
 SELECT avg(salary) FROM employee 
-  GROUP by role
+  GROUP by role )
   Output:<img src="5.png" >
